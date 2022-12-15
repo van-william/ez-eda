@@ -17,3 +17,13 @@ ez_corr_heatmap(df: pd.DataFrame, vmin: float = None, vmax: float = None, center
 
 Example Correlation Heatmap Image
 ![heatmap](static/example_heatmap.png)
+
+## ez 2D PCA Plot
+```
+from ez_eda import ez_2d_pca_plot
+```
+This function creates a simplified 2D plot of the data in seaborn to show the overall structure
+**Parameters**
+ez_2d_pca_plot(df: pd.DataFrame, hue: str = None)
+- df: input pandas dataframe
+- hue: color for scatter plot (Optional)

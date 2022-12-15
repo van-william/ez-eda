@@ -6,6 +6,8 @@ authors = ["William VanBuskirk <william.n.vanbuskirk@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "ez_eda"}]
+homepage = "https://github.com/van-william/ez-eda"
+repository = "https://github.com/van-william/ez-eda"
 
 [tool.poetry.dependencies]
 python = "^3.9"

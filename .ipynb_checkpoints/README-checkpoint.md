@@ -9,6 +9,7 @@ from ez_eda import ez_corr_heatmap
 This function creates a cleaner seaborn-based heatmap to show correlations between numeric features
 
 **Parameters**
+
 ez_corr_heatmap(df: pd.DataFrame, vmin: float = None, vmax: float = None, center: float = 0)
 - df: input pandas dataframe
 - vmin: minimum value for heatmap scale - defaults to corr() minimum
@@ -23,7 +24,9 @@ Example Correlation Heatmap Image
 from ez_eda import ez_2d_pca_plot
 ```
 This function creates a simplified 2D plot of the data in seaborn to show the overall structure
+
 **Parameters**
+
 ez_2d_pca_plot(df: pd.DataFrame, hue: str = None)
 - df: input pandas dataframe
 - hue: color for scatter plot (Optional)

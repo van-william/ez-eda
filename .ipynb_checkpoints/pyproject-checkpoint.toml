@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ez-eda"
-version = "0.1.0"
+version = "0.1.1"
 description = "simple EDA (Exploratory Data Analysis) visuals"
 authors = ["William VanBuskirk <william.n.vanbuskirk@gmail.com>"]
 license = "MIT"

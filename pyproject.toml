@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ez-eda"
-version = "0.1.0"
+version = "0.1.1"
 description = "simple EDA (Exploratory Data Analysis) visuals"
 authors = ["William VanBuskirk <william.n.vanbuskirk@gmail.com>"]
 license = "MIT"
@@ -11,8 +11,6 @@ packages = [{include = "ez_eda"}]
 python = "^3.9"
 seaborn = "^0.12.1"
 pandas = "^1.5.2"
-numpy = "^1.23.5"
-matplotlib = "^3.6.2"
 
 [build-system]
 requires = ["poetry-core"]
